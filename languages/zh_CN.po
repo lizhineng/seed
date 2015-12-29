@@ -1,0 +1,215 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Starter Theme\n"
+"POT-Creation-Date: 2015-12-29 13:47+0800\n"
+"PO-Revision-Date: 2015-12-29 14:10+0800\n"
+"Last-Translator: Li Zhineng <lizhineng@gmail.com>\n"
+"Language-Team: Li Zhineng <lizhineng@gmail.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: css\n"
+"X-Poedit-SearchPathExcluded-2: js\n"
+"X-Poedit-SearchPathExcluded-3: src\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "哎呀！找不到这个页面。"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "这里似乎什么也找不到，试试搜索？"
+
+#: archive.php:49 index.php:38 search.php:38
+msgid "Previous page"
+msgstr "前一页"
+
+#: archive.php:50 index.php:39 search.php:39
+msgid "Next page"
+msgstr "下一页"
+
+#: archive.php:51 index.php:40 search.php:40 template-parts/content-page.php:27
+#: template-parts/content.php:37
+msgid "Page"
+msgstr "页面"
+
+#: comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "&ldquo;%s&rdquo; 有一条评论"
+
+#: comments.php:36
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo; 有 %1$s 条评论"
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "评论已关闭"
+
+#: functions.php:81
+msgid "Primary Menu"
+msgstr "主菜单"
+
+#: functions.php:82
+msgid "Social Links Menu"
+msgstr "社交媒体链接"
+
+#: functions.php:114
+msgid "Sidebar"
+msgstr "侧边栏"
+
+#: functions.php:116
+msgid "Add widgets here to appear in your sidebar."
+msgstr "添加在这里的小工具会显示在你的侧边栏"
+
+#: inc/customizer.php:72
+msgid "Upload a logo"
+msgstr "站点标志"
+
+#: inc/template-tags.php:23
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "作者"
+
+#: inc/template-tags.php:36
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "格式"
+
+#: inc/template-tags.php:48
+#, php-format
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "评论<span class=\"screen-reader-text\"> %s</span>"
+
+#: inc/template-tags.php:77
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "发表于"
+
+#: inc/template-tags.php:93 inc/template-tags.php:101
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:96
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "分类"
+
+#: inc/template-tags.php:104
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "标签"
+
+#: inc/template-tags.php:183
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "继续阅读<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr "搜索结果：%s"
+
+#: searchform.php:13 searchform.php:14
+msgctxt "label"
+msgid "Search for:"
+msgstr "搜索："
+
+#: searchform.php:14
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "搜索&hellip;"
+
+#: searchform.php:16
+msgctxt "submit button"
+msgid "Search"
+msgstr "搜索"
+
+#: single.php:29
+msgctxt "Parent post link"
+msgid ""
+"<span class=\"meta-nav\">Published in</span><span class=\"post-title\">"
+"%title</span>"
+msgstr ""
+"<span class=\"meta-nav\">发表在</span><span class=\"post-title\">%title</"
+"span>"
+
+#: single.php:34
+msgid "Next"
+msgstr "&gt;"
+
+#: single.php:35
+msgid "Next post:"
+msgstr "下一篇："
+
+#: single.php:37
+msgid "Previous"
+msgstr "&lt;"
+
+#: single.php:38
+msgid "Previous post:"
+msgstr "上一篇："
+
+#: template-parts/biography.php:12
+msgid "Published by"
+msgstr "发布者"
+
+#: template-parts/biography.php:33
+#, php-format
+msgid "View all posts by %s"
+msgstr "查看所有 %s 的主题"
+
+#: template-parts/content-none.php:15
+msgid "Nothing Found"
+msgstr "什么也找不到"
+
+#: template-parts/content-none.php:22
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "准备好发布你的第一篇文章了么？<a href=“%1$s”>从这里开始</a>。"
+
+#: template-parts/content-none.php:26
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "对不起，无法查询到结果，尝试换一个关键词？"
+
+#: template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "这里似乎找不到你要的东西，搜索试试？"
+
+#: template-parts/content-page.php:23 template-parts/content.php:33
+msgid "Pages:"
+msgstr "页面："
+
+#: template-parts/content-page.php:37
+#, php-format
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "编辑<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: template-parts/content-search.php:26 template-parts/content-search.php:31
+#: template-parts/content.php:52
+msgid "Edit"
+msgstr "编辑"
+
+#: template-parts/content.php:28
+#, php-format
+msgid "Continue reading %s"
+msgstr "继续阅读 %s"
